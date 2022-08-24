@@ -1,8 +1,190 @@
-<!DOCTYPE html>
 <html>
-    <body style="background-color:rgb(162, 154, 255) ; text-align: center;">
-      <h1>
-        My Blog
-      </h1>
-    </body>
+  <head>
+
+
+
+
+
+
+
+  <h1 style="font-family: 'Courier New', Courier, monospace; text-align: center;">Ben's Website</h1>
+
+<title>Ben's Website</title>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+
+    <script src="jquery-1.4.1.min.js"></script>
+    <script src="vector_battle_regular.typeface.js"></script>
+    
+    <script src="game.js"></script>
+    <style>
+      #canvas { border:1px solid black; top:0px; left:0px; }
+      .button { position:absolute; border:1px solid black; }
+      #left-controls { position:absolute; left:1px; bottom:0px; display:none; }
+      #right-controls { position:absolute; right:1px; bottom:0px; display:none; }
+      #up { width:200px; height:100px; bottom:100px;}
+      #left { width:100px; height:100px; bottom:0px;}
+      #right { width:100px; height:100px; bottom:0px; left:100px; }
+      #space { width:200px; height:200px; bottom:0px; right:0px; }
+
+    </style>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 50%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      </style>
+
+  </head>
+  <body    style="background-color:rgb(119, 158, 205)
+   ;">
+
+<h1 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">
+  Welcome to my website!
+</h1>
+<p style="margin: 200px; font-family: 'Times New Roman', Times, serif; font-size: large;">
+This is where I am putting together some stuff, scroll down for truly utter randomness, Including cool videos, video games and much more. 
+</p>
+    
+    <iframe width="800" height="600"
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0" style="margin-bottom: 150px; margin-top: 300px" >
+</iframe>
+
+    <div id="game-container">
+      <canvas id="canvas" width="780" height="540"></canvas>
+      <div id="left-controls">
+        <div id="up" class='button'>THRUST</div>
+        <div id="left" class='button'>LEFT</div>
+        <div id="right" class='button'>RIGHT</div>
+      </div>
+      <div id="right-controls">
+        <div id="space" class='button'>FIRE</div>
+      </div>
+    </div>
+
+    <h4 style="margin: 400px ; font-family: Georgia, 'Times New Roman', Times, serif;">Who. Is. Ben?</h4>
+    
+    <div class="column-2">
+      <h3>About me</h3>
+      <p style="font-family:'Times New Roman', Times, serif ;">Benjamin Bacchoo is a young student and is the strongest person to have ever lived, as well as winning the olympics alone. He has an IQ of 254, making him the most intelligent person alive. Freinds and family love him, and say he has a great sense of humour. Most people notice how cool his hair is when the first meet him, and so this is how he is world recoginisable. After his companies success, Benjamin is the weathiest person currently alive.</p>    
+  </div>
+   
+  <div class="column-2 large-profile">
+  </div>
+
+
+  <h3 style="font-family:Georgia, 'Times New Roman', Times, serif;margin: 500px;">
+    This is some AI art that DALL·E and I made! 
+  </h3>
+
+  <div class="row">
+    <div class="column">
+      <img src="../images/DALL·E 2022-07-24 09.30.34 - Astronaut watching sunset from hills, digital art.png" alt="Astronaut" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="../images/IMG_0980.png" alt="Doge" style="width:100%">
+    </div>
+  </div> 
+
+
+
+
+  <p style="font-family: 'Courier New', Courier, monospace; margin-top: 80px;">
+    Produced by Benjamin Bacchoo®
+  </p>
+    
+
+
+
+
+
+
+
+
+
+  
+<style>
+  body {
+      font-family: Arial;
+      padding: 20px;
+      background: #f1f1f1;
+      text-align: center;
+    }
+    
+  
+    .header {
+  
+      padding: 30px;
+      font-size: 40px;
+      text-align: center;
+      background: white;
+    }
+    
+    
+    
+
+
+
+
+
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    
+   
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+   
+
+    * {
+  box-sizing: border-box;
+}
+
+.column-2 {
+  float: left;
+  width: 45%;
+  padding: 40px;
+  padding-left:70px;
+  padding-right: 70px;
+  height: 475px;
+  margin:30px;
+  margin-right:15px;
+  margin-bottom: 150px;
+  background-color: #FEDE00;
+  line-height:2;
+}
+
+    
+.large-profile {
+  background: url('../images/large-profile.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+    
+    
+</style>
+    
+
+
+  </body>
 </html>
