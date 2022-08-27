@@ -1,7 +1,4 @@
 # My Website
-
-This is a place that I am testing HTML things on,
+This is my website, a place when I can create, share and show, to tell those about my self and to unveil what I have created.
 
 Check out it here: https://AvocadoPanda.github.io/
-
-If you are cool, like shrek, then bookmark it, and star this repo!
